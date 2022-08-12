@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap);
+
+body{
+    font-family: 'Noto Serif JP', serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+}
+
+.typo_white{
+    color: rgb(113, 113, 113);
+}
+
+.title {
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    font-size: 24px;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.title:hover{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.btn{
+    position: relative;
+    right: 50px;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.5s;
+    top: -12px;
+}
+
+.btn:hover{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.menu-group{
+    position: fixed;
+    right: 30px;
+}
+
+.btn_01{
+    position: relative;
+    right: 50px;
+    padding: 0 20px;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.5s;
+    top: -12px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding-top: 70px;
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+
+section ul{
+    padding-top: 70px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+section ul li{
+    padding-top: 70px;
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section ul li.active{
+    background: #8b0202;
+    color: white;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.product .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    opacity: 0;
+    transition: 0.3s;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image_overlay:hover{
+    opacity: 1;
+}
+
+.image_title{
+    font-size: 20px;
+}

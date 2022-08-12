@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap);
+
+body{
+    font-family: 'Noto Serif JP', serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+}
+
+.title {
+    position: relative;
+    left: 30px;
+    padding: 20px;
+    font-size: 24px;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.title:hover{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.btn{
+    position: relative;
+    right: 50px;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.menu-group{
+    position: fixed;
+    right: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.one{
+    background-color: black;
+}
+.two{
+    background-color: black;
+}
+.three{
+    background-color: black;
+}
+.four{
+    background-color: black;
+}
+
+.mainphoto{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/01.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.mainphoto:hover{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/02.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+}
+
+.worksphoto{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/05.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.worksphoto:hover{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/04.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+}
+
+.aboutphoto{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/07.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.aboutphoto:hover{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/06.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+
+}
+
+.contactphoto{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/08.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.contactphoto:hover{
+    background-image: url("/Users/wadanozomi/Documents/portfolio/images/03.png");
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+    position: static;
+    background-size: cover;
+}
+
+
+.box01{
+    padding-top: 70px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.box01:hover{
+    opacity: 1;
+}
+
+.text01{
+    position: relative;
+    top: 90%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.maintitle{
+    position: relative;
+    font-size: 80px;
+    padding-top: 70px;
+    top: 15%;
+    text-align: center;
+}
+
+.description{
+    position: relative;
+    font-size: 20px;
+    padding-top: 70px;
+    top: 5%;
+}
+
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    top: 10%;
+    left: 0;
+  }
+  
+  .btn-43 {
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    color: white;
+  }
+  
+  .btn-43:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-43:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn-43:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
