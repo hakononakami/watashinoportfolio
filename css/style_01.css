@@ -87,7 +87,7 @@ section{
 }
 
 .mainphoto{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/01.png");
+    background-image: url("../images/01.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -97,7 +97,7 @@ section{
 }
 
 .mainphoto:hover{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/02.png");
+    background-image: url("../images/02.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -106,7 +106,7 @@ section{
 }
 
 .worksphoto{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/05.png");
+    background-image: url("../images/05.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -116,7 +116,7 @@ section{
 }
 
 .worksphoto:hover{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/04.png");
+    background-image: url("../images/04.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -125,7 +125,7 @@ section{
 }
 
 .aboutphoto{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/07.png");
+    background-image: url("../images/07.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -135,7 +135,7 @@ section{
 }
 
 .aboutphoto:hover{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/06.png");
+    background-image: url("../images/06.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -145,7 +145,7 @@ section{
 }
 
 .contactphoto{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/08.png");
+    background-image: url("../images/08.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
@@ -155,7 +155,7 @@ section{
 }
 
 .contactphoto:hover{
-    background-image: url("/Users/wadanozomi/Documents/portfolio/images/03.png");
+    background-image: url("../images/03.png");
     text-align: center;
     min-height: 100vh;
     width: 100%;
